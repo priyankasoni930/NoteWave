@@ -20,7 +20,7 @@ export default function AuthPage() {
       <div className="max-w-md w-full space-y-8">
         <div>
           <h2 className="mt-6 text-center text-3xl font-extrabold text-white">
-            Welcome to MeetNote Genius
+            Welcome to NoteWave AI
           </h2>
         </div>
         <div className="mt-8 bg-[#1a1a1a] py-8 px-4 shadow sm:rounded-lg sm:px-10">
