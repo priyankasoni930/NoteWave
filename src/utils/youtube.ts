@@ -11,7 +11,7 @@ export const getVideoTranscript = async (videoUrl: string): Promise<string> => {
       throw new Error('Invalid YouTube URL');
     }
     
-    const response = await fetch(`https://transcriptor-vercel.vercel.app/api/transcript?videoId=${videoId}`);
+    const response = await fetch();
     if (!response.ok) {
       throw new Error('Failed to fetch transcript');
     }
