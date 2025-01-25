@@ -1,6 +1,6 @@
 import { GoogleGenerativeAI } from "@google/generative-ai";
 
-const genAI = new GoogleGenerativeAI("AIzaSyCo7BVnc1tEfz4zEoBV97zJ6nWFIPJn6TA");
+const genAI = new GoogleGenerativeAI("");
 
 export const summarizeText = async (text: string): Promise<string> => {
   const model = genAI.getGenerativeModel({ model: "gemini-pro" });
